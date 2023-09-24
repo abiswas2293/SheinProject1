@@ -10,7 +10,7 @@ public class HomePageTests extends CommonFunctions {
     HomePage home = new HomePage();
     SearchPage search = new SearchPage();
 
-    /* @Test
+     @Test
      public void selectSaree() throws InterruptedException {
 
          home.SearchBar("saree");
@@ -29,7 +29,6 @@ public class HomePageTests extends CommonFunctions {
          search.clickOnLink(1);
 
      }
- */
     @Parameters({"productName"})
     @Test
     public void selectProduct(String productName) throws InterruptedException {
