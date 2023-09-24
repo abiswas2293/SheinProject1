@@ -1,4 +1,4 @@
-package objectRepository;
+ package objectRepository;
 
 public class RegistrationPageLocators {
 
